@@ -42,6 +42,11 @@ body {
         font-size: 0.75rem;
         font-weight:550;
         padding: 0.5rem;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
     }
 
     img {
@@ -61,18 +66,22 @@ body {
     margin: 2rem 10rem;
     padding: 1.5rem;
     
-    .row {
+    .card {
         display: flex;
         justify-content: space-between;
         margin-bottom: 2rem;
         flex-wrap: wrap;
         
-        div {
+        .item {
 
-            width: 33%;
+            width: 32%;
+
+            .item:hover {
+                background-image: url("./boolando_images/img/1b.webp");
+            }
 
             img {
-                width: 98%
+                width: 100%;
             }
         };
     }
@@ -113,7 +122,7 @@ body {
     }
 }
 
-section {
+.caption {
     gap: 0;
     margin-bottom: 2rem;
 
@@ -127,17 +136,9 @@ h2 {
 p {
     margin: 0;
     padding: 0;
-    font-size: 11px;
-
-   
+    font-size: 11px;  
 }
 
-}
-
-.look:hover .img1 {
-    background-image: url("./boolando_images/img/1b.webp");
-    background-size: cover;
-    z-index: 100;
 }
 
 
