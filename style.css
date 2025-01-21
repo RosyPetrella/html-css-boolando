@@ -73,17 +73,71 @@ body {
         flex-wrap: wrap;
         
         .item {
-
             width: 32%;
-
-            .item:hover {
-                background-image: url("./boolando_images/img/1b.webp");
-            }
 
             img {
                 width: 100%;
             }
-        };
+
+            .alt-img-1 {
+                display: none;
+            }
+            .alt-img-2 {
+                display: none;
+            }
+            .alt-img-3 {
+                display: none;
+            }
+            .alt-img-4 {
+                display: none;
+            }
+            .alt-img-5 {
+                display: none;
+            }
+            .alt-img-6 {
+                display: none;
+            }
+        }
+
+        .item:hover {
+            
+            .alt-img-1 {
+                display: block;
+            }
+            .img-1 {
+                display: none;
+            }
+            .alt-img-2 {
+                display: block;
+            }
+            .img-2 {
+                display: none;
+            }
+            .alt-img-3 {
+                display: block;
+            }
+            .img-3 {
+                display: none;
+            }
+            .alt-img-4 {
+                display: block;
+            }
+            .img-4 {
+                display: none;
+            }
+            .alt-img-5 {
+                display: block;
+            }
+            .img-5 {
+                display: none;
+            }
+            .alt-img-6 {
+                display: block;
+            }
+            .img-6 {
+                display: none;
+            }
+        }
     }
 
 }
