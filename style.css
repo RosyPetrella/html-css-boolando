@@ -23,7 +23,7 @@ body {
 
 .o-price {
     text-decoration: line-through;
-    font-size: 11px;
+    font-size: 12px;
 
 }
 
@@ -57,6 +57,7 @@ body {
     display: flex;
     flex-direction:column;
     margin: 2rem 8rem;
+    padding: 1.5rem;
     
     .row {
         display: flex;
@@ -75,6 +76,48 @@ body {
     }
 
 }
+/*prova
+.look {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+} */
+
+.look {
+    min-width: 100%;
+    position: relative;
+
+    i {
+        background-color: var(--main-lighter);
+        padding: 0.75rem;
+        margin: 0;
+        position:absolute;
+        top: 0.5rem;
+        right: 0;
+    }
+
+    .detail {
+        position: absolute;
+        left: 0;
+        bottom:2rem;
+        color: white;
+        font-size: 11px;
+
+        .discount {
+            background-color: var(--bg-sale);
+            padding: 0.25rem 0.5rem;
+            margin-right: 0.25rem;
+        }
+
+        .ethics {
+            background-color: var(--bg-ethics);
+            padding: 0.25rem 0.5rem;
+        }
+    }
+}
 
 section {
     gap: 0;
@@ -89,9 +132,10 @@ h2 {
 p {
     margin: 0;
     padding: 0;
-    font-size: 10px;
+    font-size: 11px;
 
    
 }
 
 }
+
