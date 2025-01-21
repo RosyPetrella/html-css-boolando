@@ -6,9 +6,11 @@
     --bg-sale: #ff0000;
 }
 
+/*
 * {
     border: 0.5px dashed;
 }
+    */
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -56,7 +58,7 @@ body {
 .look-book {
     display: flex;
     flex-direction:column;
-    margin: 2rem 8rem;
+    margin: 2rem 10rem;
     padding: 1.5rem;
     
     .row {
@@ -76,15 +78,6 @@ body {
     }
 
 }
-/*prova
-.look {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 100%;
-} */
 
 .look {
     min-width: 100%;
@@ -139,3 +132,46 @@ p {
 
 }
 
+/*FOOTER*/
+
+footer {
+    background-color: var(--main-dark);
+}
+.bottom {
+    background-color: var(--main-dark);
+    color: var(--main-lighter);
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10rem 0 10rem;
+    padding: 1rem;
+
+    .links {
+        align-self: center;
+    }
+
+    h5{
+        margin: 0.5rem 0 0.5rem 0;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+    }
+
+    .social {
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    p{
+        padding: 0.25rem;
+    }
+
+    i {
+        width: 15px;
+        text-align: center;
+        padding: 0.25rem;
+    }
+
+}
